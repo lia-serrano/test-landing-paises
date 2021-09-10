@@ -18,18 +18,8 @@ const fetchData = async () => {
         }
 }
 
-let nameCountry = [];
-
-for (let i = 0; i < fetchData.length; i++) {
-    if (fetchData[i].languages.name) {
-        nameCountry.push(fetchData[i])
-    }
+const viewInfo = (data) => {
     
-}
-export const viewInfo = (data) => {
-    /*const nameEs = data.translations.es;
-    console.log(nameEs)*/
-
     let elements = ''
     data.forEach(item => {
         elements += `

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Buscando Países</title>
+</head>
+
+<body>
+    <main>
+        <header>
+
+        </header>
+        <form action="" class="formSearch" id="formCountries">
+            <input id="nameFilter" class="button" type="search" placeholder="Buscar por país">
+        </form>
+        <section id="container-countries" class="containerCountries container grid">
+        </section>
+
+    </main>
+    <script src="data.js" type="module"></script>
+    <script>
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "firebase/app";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDi3bRbmv-OwS0JObWEZi_pr-5nk9DCh2g",
+            authDomain: "search-country.firebaseapp.com",
+            projectId: "search-country",
+            storageBucket: "search-country.appspot.com",
+            messagingSenderId: "544396482906",
+            appId: "1:544396482906:web:4fda83bcc600d9951cbb63"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+</body>
+
+</html>
