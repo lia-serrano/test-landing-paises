@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/lia-serrano/test-landing-paises/issues"
   },
-  "homepage": "https://github.com/lia-serrano/test-landing-paises#readme"
+  "homepage": "https://github.com/lia-serrano/test-landing-paises#readme",
+  "dependencies": {
+    "firebase": "^9.0.2"
+  }
 }
